@@ -1,5 +1,10 @@
 @media (max-width: 1424px) {
-
+    .decktop {
+        display: block;
+    }
+    .mobileName {
+        display: none;
+    }
 }
 @media (max-width: 960px) {
         .mainPhoto img {
@@ -33,6 +38,15 @@
         .galleryItem {
             width: 300px;
             margin-bottom: 30px;
+        }
+        .moboleOff360 {
+            display: block;
+        }
+        .decktop {
+            display: block;
+        }
+        .mobileName {
+            display: none;
         }
 
 }
@@ -68,6 +82,16 @@
         .galleryItem {
             width: 300px;
             margin-bottom: 30px;
+        }
+        .moboleOff360 {
+            display: block;
+        }
+        .decktop {
+            display: block;
+        }
+    
+        .mobileName {
+            display: none;
         }
 }
 @media (max-width: 768px) {
@@ -114,6 +138,16 @@
         width: 300px;
         margin-bottom: 30px;
     }
+    .moboleOff360 {
+        display: none;
+    }
+    .decktop {
+        display: block;
+    }
+    
+    .mobileName {
+        display: none;
+    }
 }
 @media (max-width: 550px) {
     .mobileToggle {
@@ -151,6 +185,15 @@
     }
     .lineWhite {
         margin-left: 10px;
+    }
+    .moboleOff360 {
+        display: none;
+    }
+    .decktop {
+        display: block;
+    }
+    .mobileName {
+        display: none;
     }
 }
 @media (max-width: 480px) {
@@ -190,11 +233,11 @@
     .lineWhite {
          margin-left: 10px;
     }
-    .mobileOff {
-        display: none;
+    .mobile {
+        display: block;
     }
     .moboleOff360 {
-        display: block;
+        display: none;
     }
     .developer {
         width: 200px;
@@ -206,6 +249,7 @@
     footer {
         padding: 40px 0 60px;
     }
+ 
 }
 @media (max-width: 360px) {
     .mobileToggle {
@@ -250,7 +294,7 @@
     .lineWhite {
         margin-left: 10px;
     }
-    .mobileOff {
+    .mobile {
         display: none;
     }
     .developer {
@@ -268,6 +312,12 @@
     }
     .moboleOff360 {
         display: none;
+    }
+    .decktop {
+        display: none;
+    }
+    .mobileName {
+        display: block
     }
 }
 
