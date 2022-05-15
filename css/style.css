@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1424px;
+    background-color: #fff;
+    color: #56593D;
+}
+a {
+    font-size: 20px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #56593D;
+}
+.mailMy {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #fff;
+}
+ul,
+li {
+    list-style: none;
+}
+main {
+    margin: 56px;
+}
+li {
+    margin: 10px;
+}
+.lineBrown {
+    width: 100%;
+    max-width: 40px;
+    height: 0.25rem;
+    background-color: #717353;
+    border-radius: 1rem;
+    border-color: #717353;
+    margin: 30px;
+}
+.lineWhite {
+    width: 100%;
+    max-width: 40px;
+    height: 0.20rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    border-color: #fff;
+    margin: 30px;
+}
+.button {
+    background-color: #6d6d6d;
+    padding: 0px 30px;
+    color: #fff;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-decoration: none;
+    justify-self: start;
+}
+
+/*============Header============*/
+.mobileToggle {
+    display: none;
+}
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*==========Main==========*/
+
+.groupNav img {
+    margin: 10px;
+}
+.textSlogo {
+    margin-top: 110px;
+    max-width: 1194px;
+    font-size: 57px;
+    text-align: center;
+}
+.linkNewPage {
+    margin: 20px;
+    border-bottom: 2px solid #56593D;
+}
+.linksUnderLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+.productSection {
+    font-size: 24px;
+    background-color: #FFFFEF;
+    text-align: center;
+}
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.productSection__logo {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.productItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.productItem {
+    margin-bottom: 80px;
+}
+.productItem p {
+    font-size: 16px
+}
+.photoPlate {
+    width: 100%;
+    height: 700px;
+    padding: 60px;
+    background: url(../img/RectanglePlate.png) no-repeat center #0f1384;
+    display: flex;
+    flex-direction: column;
+
+}
+.photoPlate__text {
+    text-align: center;
+}
+.photoPlate__textTop {
+    text-transform: uppercase;
+    font-weight: 17px;
+}
+.photoPlate__textBottom {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+/*===========Colage==========*/
+
+.colage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.colage__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+}
+.colage__textLogo,
+.subscribe__logo {
+    font-size: 30px;
+}
+.colage__text p {
+    font-size: 20px;
+}
+
+/*==============Subscribe==========*/
+
+.subscribe {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subsaribe__text {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+button {
+    background-color: #56593D;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*=============Gallery=========*/
+
+.hashtag {
+    font-size: 25px;
+    text-align: center;
+    margin: 40px;
+}
+.gallery__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.buttonUp {
+    display: flex;
+    justify-content: center;
+}
+/*===========Footer===========*/
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #717353;
+    padding: 60px 30px 100px;
+    color: #fff;
+    margin-top: 80px;
+}
+footer a {
+    color: #fff;
+}
+.developer {
+    max-width: 250px;
+    padding: 12px;
+}
+.linlSocial img {
+    margin: 10px;
+}
